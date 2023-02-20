@@ -1,0 +1,25 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+const express_1 = require("express");
+const cors_1 = require("cors");
+const apiTest_factory_1 = require("./src/main/express-adapter/factories/apiTest-factory");
+const user_factory_1 = require("./src/main/express-adapter/factories/user-factory");
+const auth_factory_1 = require("./src/main/express-adapter/factories/auth-factory");
+const game_factory_1 = require("./src/main/express-adapter/factories/game-factory");
+const profile_factory_1 = require("./src/main/express-adapter/factories/profile-factory");
+const app = (0, express_1.default)();
+const router = (0, express_1.Router)();
+const apiTestFactory = (0, apiTest_factory_1.makeApiTestFactory)(router);
+const userFactory = (0, user_factory_1.makeUserFactory)(router);
+const authFactory = (0, auth_factory_1.makeAuthFactory)(router);
+const gameFactory = (0, game_factory_1.makeGameFactory)(router);
+const profileFactory = (0, profile_factory_1.makeProfileFactory)(router);
+app.use(express_1.default.json());
+app.use((0, cors_1.default)());
+app.use("/", apiTestFactory.route());
+app.use("/user", userFactory.route());
+app.use("/auth", authFactory.route());
+app.use("/game", gameFactory.route());
+app.use("/profile", profileFactory.route());
+app.listen(3000, () => console.log("http://localhost:3000"));
+//# sourceMappingURL=index.js.map

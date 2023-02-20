@@ -1,0 +1,1 @@
+{"version":3,"file":"game-factory.js","sourceRoot":"","sources":["../../../../../src/main/express-adapter/factories/game-factory.ts"],"names":[],"mappings":";;;AACA,qFAAoF;AACpF,qDAAiD;AAEjD,SAAgB,eAAe,CAAC,MAAc;IAC5C,MAAM,cAAc,GAAG,IAAA,mDAAyB,GAAE,CAAC;IACnD,OAAO,IAAI,sBAAS,CAAC,cAAc,EAAE,MAAM,CAAC,CAAC;AAC/C,CAAC;AAHD,0CAGC"}

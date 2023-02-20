@@ -1,0 +1,1 @@
+{"version":3,"file":"token-handler-factory.js","sourceRoot":"","sources":["../../../../src/main/factories/token-handler-factory.ts"],"names":[],"mappings":";;;AAAA,8FAAwF;AACxF,4EAAwE;AACxE,oFAA+E;AAE/E,SAAgB,gBAAgB;IAC9B,MAAM,UAAU,GAAG,IAAI,gCAAc,EAAE,CAAC;IACxC,MAAM,qBAAqB,GAAG,IAAI,gDAAqB,CAAC,UAAU,CAAC,CAAC;IACpE,OAAO,IAAI,2CAAmB,CAAC,qBAAqB,CAAC,CAAC;AACxD,CAAC;AAJD,4CAIC"}

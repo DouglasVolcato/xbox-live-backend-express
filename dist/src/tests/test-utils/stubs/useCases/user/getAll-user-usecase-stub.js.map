@@ -1,0 +1,1 @@
+{"version":3,"file":"getAll-user-usecase-stub.js","sourceRoot":"","sources":["../../../../../../../src/tests/test-utils/stubs/useCases/user/getAll-user-usecase-stub.ts"],"names":[],"mappings":";;;AAEA,8EAA0E;AAE1E,MAAa,sBAAsB;IACjC,KAAK,CAAC,OAAO;QACX,OAAO,IAAI,OAAO,CAAC,CAAC,OAAO,EAAE,EAAE,CAAC,OAAO,CAAC,CAAC,oBAAQ,CAAC,CAAC,CAAC,CAAC;IACvD,CAAC;CACF;AAJD,wDAIC"}
